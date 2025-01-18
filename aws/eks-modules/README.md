@@ -7,6 +7,8 @@ This Terraform project sets up an Amazon EKS (Elastic Kubernetes Service) cluste
 - [Terraform](https://www.terraform.io/downloads.html) installed on your local machine.
 - AWS CLI configured with appropriate credentials. (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - An AWS account with permissions to create the necessary resources.
+- kubectl  (https://kubernetes.io/docs/tasks/tools/)
+- eksctl  (https://eksctl.io/installation/)
 
 ## Project Structure
 
