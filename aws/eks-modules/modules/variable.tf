@@ -58,6 +58,11 @@ variable "nat_gateway_name" {
   
 }
 
+variable "ami_type" {
+  description = "Type of AMI"
+  
+}
+
 
 
 
