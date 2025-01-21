@@ -14,3 +14,4 @@ module "eks-cluster" {
     ami_type = "AL2_x86_64"
 
 }
+

@@ -75,9 +75,12 @@ resource "aws_iam_role_policy_attachment" "eks_ecr_policy" {
 }
 
 
-resource "aws_iam_role_policy_attachment" "eks_vpc_policy" {
-    policy_arn = "arn:aws:iam::aws:policy/AmazonVPCFullAccess"
+resource "aws_iam_role_policy_attachment" "eks_ebs" {
+    policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonEBSCSIDriverPolicy"
     role = aws_iam_role.eks_node_policy.name
   
 }
+
+
+
 
