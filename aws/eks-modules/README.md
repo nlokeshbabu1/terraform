@@ -28,6 +28,7 @@ This Terraform project sets up an Amazon EKS (Elastic Kubernetes Service) cluste
     ```
 
 2. **Initialize Terraform**:
+   Initializes a working directory and downloads the necessary provider plugins and  setting up the backend for storing your infrastructure's state
     ```sh
     terraform init
     ```
@@ -36,11 +37,13 @@ This Terraform project sets up an Amazon EKS (Elastic Kubernetes Service) cluste
     - Open `variables.tf` and review the default values. Modify them as needed for your environment.
 
 4. **Plan the infrastructure**:
+   A preview of the changes that Terraform will make to your infrastructure
     ```sh
     terraform plan
     ```
 
 5. **Apply the configuration**:
+   Executes planned actions, creating, updating, or deleting infrastructure resources to match the new state outlined in your IaC
     ```sh
     terraform apply
     ```
