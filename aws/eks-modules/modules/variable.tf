@@ -67,3 +67,4 @@ variable "ami_type" {
 
 
 
+

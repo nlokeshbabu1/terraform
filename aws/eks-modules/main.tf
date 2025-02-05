@@ -12,6 +12,9 @@ module "eks-cluster" {
     nat_gateway_name = "eks-nat-gateway"
     internet_gateway_name = "eks-ig"
     ami_type = "AL2_x86_64"
+    
 
 }
+
+
 

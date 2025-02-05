@@ -1,8 +1,10 @@
 terraform {
-  backend "s3" {
+  backend "s3" {  
     bucket = "terraform-statefile-for-backup"
-    key    = "terraform-statefile-for-backup/eks"
+    dynamodb_table = "terraform-state-lock"
+    key    = "eks"
     region = "ap-south-1"
     
   }
 }
+
